@@ -20,10 +20,10 @@ This project implements a basic virtual CPU capable of executing programs writte
 
 The simulated CPU consists of:
 
-- **Memory (256 words)** — stores instructions and data
-- **Registers (16 total)** — general-purpose computation registers
-- **Program Counter (PC)** — tracks current instruction
-- **Instruction Register (IR)** — holds current instruction
+- **Memory (256 words)**: stores instructions and data
+- **Registers (16 total)**: general-purpose computation registers
+- **Program Counter (PC)**: tracks current instruction
+- **Instruction Register (IR)**: holds current instruction
 
 Execution follows a standard loop:
 
@@ -92,7 +92,7 @@ D307
 E000
 ```
 
-Output
+### Output
 
 The simulator displays:
 
@@ -103,7 +103,7 @@ Memory updates
 Control flow (jumps / halts)
 
 
-Purpose
+### Purpose
 
 This project was built to understand:
 
@@ -112,7 +112,7 @@ This project was built to understand:
 - Low-level memory and register operations
 - Systems-level programming in C++
 
-Notes
+#### Notes
 - The ISA is simplified for educational purposes
 - Floating-point instruction (5RST) is defined but not implemented
 - Program assumes valid machine code input
