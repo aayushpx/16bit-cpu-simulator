@@ -96,11 +96,11 @@ E000
 
 The simulator displays:
 
-Program Counter (PC)
-Instruction Register (IR)
-Register updates
-Memory updates
-Control flow (jumps / halts)
+- Program Counter (PC)
+- Instruction Register (IR)
+- Register updates
+- Memory updates
+- Control flow (jumps / halts)
 
 
 ### Purpose
